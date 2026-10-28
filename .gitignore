@@ -3,6 +3,9 @@
 .RData
 .Ruserdata
 
+# Input datasets awaiting permission for public release
+data/*.txt
+
 # RStudio project settings
 .Rproj.user/
 
