@@ -36,13 +36,11 @@ install.packages(c("ggplot2", "dplyr", "tidyr", "patchwork", "stringr"))
 
 # Input files
 
-The analysis uses HCV epitope-hit datasets from longitudinally sampled hosts P102 and P110.
-
-The input datasets are not currently included in this repository, pending confirmation of data-sharing permissions.
-
-The R script expects the following tab-delimited files in the data/ directory:
+The script uses two tab-delimited input files:
 epitope_hits_with_coordinates_P102.txt
 epitope_hits_with_coordinates_P110.txt
+
+Each file contains detected HLA-associated epitope hits and their corresponding HCV amino-acid coordinates.
 
 The script can be run once the appropriate input files have been placed in the data/ directory.
 
